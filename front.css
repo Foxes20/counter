@@ -1,0 +1,109 @@
+
+.header{
+	position: absolute;
+    top: 35%;
+	left:35%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+.top{
+	border-radius: 10px 10px 0px 0px;
+	background: #494949;
+	width:470px;
+	padding:1px 15px;
+}
+
+.top p{
+	color:white;
+	font:bold 16px Arial;
+}
+
+.wrapper{
+	border-radius: 0px 0px 10px 10px;
+	background:#F2F2F2;
+	width:470px;
+	height:200px;
+	padding:15px;
+}
+
+.content{
+	background:white;
+	border-radius: 10px;
+	width:470px;
+	height:200px;
+	margin: auto;
+}
+
+#targetIndicator {
+  width: 150px;
+  background-color: #ddd;
+
+  position: absolute;
+    top: 130px;
+	left:178px;
+	border:3px solid #DDDDDD;
+}
+
+#indicator {
+  height: 16px;
+  background-color: #0389D0;
+  color:white; 
+}
+
+button{
+	color:white;
+	background:#938F8F ;
+	position: absolute;
+    top: 115px;
+    left:334px;   
+}
+
+button:hover{
+	background: #717075;
+}
+
+.target{
+	font-size: 12px;
+}
+
+.dollar{
+	font-size: 18px;
+	display: block;
+	margin-top: -10px;/*!!!*/
+}
+
+.text{
+	position: absolute;
+    top: 130px;
+	left:85px;
+	font:bold 16px Arial;
+	color:#7E7986;
+}
+
+#indtext{
+	position: absolute;
+    top: 200px;
+	left:120px;
+	font:normal 16px Arial;
+	color:#848288;
+}
+
+#pointer{
+	position: absolute;
+    top: 150px;
+	left:185px;
+	font:bold 16px Arial;
+}
+
+.src{
+	position: absolute;
+	top:190px;
+	left:80px;
+}
+
+hr{
+	padding: 0px;
+	margin:0px;
+	text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+	border-radius: 25%;
+}
